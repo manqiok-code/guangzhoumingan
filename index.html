@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jersey Home — Guangzhou Jersey Home International Trade Co., Ltd | Custom Football Uniforms</title>
+<meta name="description" content="Guangzhou Jersey Home International Trade Co., Ltd — custom football uniforms, soccer jerseys, training kits and teamwear. Low MOQ, OEM/ODM, worldwide shipping.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #1f2937; background: #f5f7fa; line-height: 1.75; }
+  a { text-decoration: none; color: inherit; }
+  :root { --green:#0a7a4a; --green-dark:#065a37; --gold:#e8a838; }
+
+  /* Hero */
+  .hero { position: relative; color: #fff; padding: 84px 20px 96px; text-align: center; overflow: hidden; }
+  .hero::before { content:""; position:absolute; inset:0; background:linear-gradient(125deg, #065a37 0%, #0a7a4a 55%, #1a9c63 100%); z-index:0; }
+  .hero::after { content:""; position:absolute; inset:0; background: url('https://s41.ax1x.com/2026/09/24/pn1SjpD.png') center/cover; opacity:0.10; z-index:0; }
+  .hero-inner { position:relative; z-index:1; max-width:1040px; margin:0 auto; }
+  .hero .brand { display:inline-flex; align-items:center; gap:14px; justify-content:center; }
+  .hero .brand img { width:74px; height:74px; object-fit:cover; border-radius:14px; border:2px solid rgba(255,255,255,0.6); }
+  .hero h1 { font-size:2.15em; font-weight:800; letter-spacing:0.3px; margin-top:6px; }
+  .hero .cn { font-size:1.1em; opacity:0.9; margin-top:4px; }
+  .hero .tag { display:inline-block; margin-top:22px; padding:10px 26px; border:1px solid rgba(255,255,255,0.5); border-radius:30px; font-weight:700; background:rgba(255,255,255,0.14); font-size:1.02em; }
+  .hero .addr { margin-top:22px; font-size:0.94em; opacity:0.92; }
+
+  /* Section */
+  section { max-width:1180px; margin:0 auto; padding: 64px 20px 0; }
+  .sec-head { text-align:center; margin-bottom:34px; }
+  .sec-head .kicker { color:var(--green); font-weight:800; letter-spacing:2px; text-transform:uppercase; font-size:0.85em; }
+  .sec-head h2 { font-size:1.85em; color:#111; font-weight:800; margin-top:6px; }
+
+  /* About */
+  .about { background:#fff; border-radius:18px; box-shadow:0 8px 26px rgba(0,0,0,0.06); padding:44px 46px; }
+  .about .lead { font-size:1.06em; color:#374151; }
+  .about .lead strong { color:var(--green-dark); }
+  .grid-2 { display:grid; grid-template-columns:1.15fr 1fr; gap:34px; margin-top:28px; }
+  .block h3 { font-size:1.2em; color:var(--green-dark); font-weight:800; margin-bottom:12px; display:flex; align-items:center; gap:8px; }
+  .block ul { list-style:none; }
+  .block li { padding:7px 0 7px 26px; position:relative; color:#374151; }
+  .block li::before { content:""; position:absolute; left:0; top:15px; width:9px; height:9px; background:var(--gold); border-radius:50%; }
+  .why li::before { background:var(--green); }
+  .principle { margin-top:30px; padding:22px 26px; background:linear-gradient(100deg,#f0faf4,#eaf6f0); border-left:5px solid var(--green); border-radius:10px; }
+  .principle p { color:#1f3d2c; font-weight:600; }
+  .principle .welcome { margin-top:8px; color:#374151; font-weight:400; }
+
+  /* Products */
+  .products { padding-bottom:40px; }
+  .cat { background:#fff; border-radius:18px; box-shadow:0 8px 26px rgba(0,0,0,0.06); overflow:hidden; margin-bottom:30px; }
+  .cat-head { padding:26px 30px 0; }
+  .cat-head h3 { font-size:1.35em; color:var(--green-dark); font-weight:800; }
+  .grid { padding:24px 30px 30px; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:22px; }
+  .card { border:1px solid #eef1f4; border-radius:14px; overflow:hidden; display:flex; flex-direction:column; transition:transform .25s, box-shadow .25s; cursor:pointer; background:#fff; }
+  .card:hover { transform:translateY(-6px); box-shadow:0 16px 32px rgba(0,0,0,0.14); }
+  .card img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; background:#eef1f4; }
+  .card .info { padding:16px 18px 20px; flex:1; display:flex; flex-direction:column; }
+  .card h4 { font-size:1.02em; color:#111; font-weight:700; }
+  .card .go { margin-top:auto; padding-top:14px; color:var(--green); font-weight:700; font-size:0.88em; display:flex; justify-content:space-between; align-items:center; }
+  .card .go span:last-child { transition:transform .2s; }
+  .card:hover .go span:last-child { transform:translateX(5px); }
+
+  /* WhatsApp bar */
+  .wa-bar { position:fixed; bottom:0; left:0; width:100%; display:flex; justify-content:center; align-items:center; gap:12px; padding:12px 10px; background:rgba(255,255,255,0.96); box-shadow:0 -3px 18px rgba(0,0,0,0.12); z-index:1000; flex-wrap:wrap; }
+  .wa-btn { display:flex; align-items:center; gap:8px; padding:11px 20px; border-radius:30px; color:#fff; font-weight:700; font-size:0.9em; box-shadow:0 4px 14px rgba(0,0,0,0.2); transition:transform .2s, box-shadow .2s; white-space:nowrap; line-height:1.25; }
+  .wa-btn:hover { transform:translateY(-3px); box-shadow:0 9px 22px rgba(0,0,0,0.3); }
+  .wa-btn img { width:21px; height:21px; filter:brightness(0) invert(1); }
+  .wa-1{background:#128c7e;} .wa-2{background:#25d366;} .wa-3{background:#075e54;} .wa-4{background:#128c7e;}
+
+  footer { text-align:center; padding:34px 20px 92px; background:var(--green-dark); color:#cfe6d8; margin-top:60px; font-size:0.9em; }
+  footer .name { color:#fff; font-weight:800; font-size:1.1em; }
+  footer a { color:#f0c674; }
+
+  @media (max-width:760px){
+    .grid-2{grid-template-columns:1fr;}
+    .hero h1{font-size:1.45em;}
+    .about{padding:28px 22px;}
+    .wa-btn{font-size:0.76em; padding:9px 12px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO / COMPANY INTRO -->
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <img src="https://s41.ax1x.com/2026/09/24/pn1SjpD.png" alt="Jersey Home logo">
+      <div>
+        <h1>Jersey Home</h1>
+        <div class="cn">广州泽西之家国际贸易有限公司</div>
+      </div>
+    </div>
+    <div class="tag">⚽ Custom Football Uniforms &amp; Teamwear</div>
+    <p class="addr">Room 321, Building B, No. 38, Shishan Road, the Pearl River Village, Huangpu District, Guangzhou, China</p>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section>
+  <div class="sec-head">
+    <div class="kicker">About Us</div>
+    <h2>Guangzhou Jersey Home International Trade Co., Ltd.</h2>
+  </div>
+  <div class="about">
+    <p class="lead"><strong>Guangzhou Jersey Home International Trade Co., Ltd.</strong> is established in 2024 and based in Guangzhou, China. We are an international trading company focused on soccer jerseys, football kits, teamwear and sports apparel.</p>
+    <p class="lead" style="margin-top:14px;">Backed by Guangzhou's mature garment supply chain, we integrate sublimation printing, heat transfer, embroidery, cutting and sewing to provide cost-effective football gear and customization services for overseas clubs, fan shops, wholesalers and e-commerce sellers.</p>
+
+    <div class="grid-2">
+      <div class="block">
+        <h3>📦 Main Products</h3>
+        <ul>
+          <li>Soccer jerseys / shorts / goalkeeper kits</li>
+          <li>Team training wear / pre-match shirts</li>
+          <li>Retro jerseys / fan version jerseys</li>
+          <li>Custom names, numbers, logos and sponsor prints</li>
+          <li>Basketball jerseys, training T-shirts, sports shorts</li>
+        </ul>
+      </div>
+      <div class="block why">
+        <h3>✅ Why Choose Us</h3>
+        <ul>
+          <li>Low MOQ, flexible order quantity</li>
+          <li>OEM / ODM / custom design / sample-based production</li>
+          <li>100% pre-shipment check on print, stitching and sizing</li>
+          <li>Ship from Guangzhou / Shenzhen by air, sea or express</li>
+          <li>Fast response in English and Chinese</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="principle">
+      <p>Jersey Home is not a big-brand factory. We are a Guangzhou trading partner who understands football, cross-border business and small-B buyers.</p>
+      <p class="welcome"><strong>Our principle:</strong> stable quality, reliable lead time, transparent pricing.<br>We welcome global buyers for quotations, sampling and long-term cooperation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <div class="sec-head">
+    <div class="kicker">Product Catalog</div>
+    <h2>Our Product Categories</h2>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Soccer Jersey</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/albums?tab=gallery" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1Symn.png" alt="Soccer jersey" loading="lazy">
+        <div class="info"><h4>Soccer Jersey Album</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Shooting Suit</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4327404" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1ScT0.jpg" alt="Shooting suit" loading="lazy">
+        <div class="info"><h4>Shooting Suit</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Football Training Suit</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4729433" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1S2kV.jpg" alt="Football training suit" loading="lazy">
+        <div class="info"><h4>Football Training Suit</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Football Players' Uniforms</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4689758" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1SWfU.jpg" alt="Football players' uniforms" loading="lazy">
+        <div class="info"><h4>Football Players' Uniforms</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Light Board Football Clothes</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4690623" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1ShpF.jpg" alt="Light board football clothes" loading="lazy">
+        <div class="info"><h4>Light Board Football Clothes</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Tights Suit</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4724952" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1S6wq.jpg" alt="Tights suit" loading="lazy">
+        <div class="info"><h4>Tights Suit</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="cat">
+    <div class="cat-head"><h3>Football Training Suit (II)</h3></div>
+    <div class="grid">
+      <a class="card" href="https://zhanyang1997.x.yupoo.com/categories/4729428" target="_blank" rel="noopener">
+        <img src="https://s41.ax1x.com/2026/09/24/pn1SRYT.png" alt="Football training suit" loading="lazy">
+        <div class="info"><h4>Football Training Suit</h4><div class="go"><span>View photo album</span><span>→</span></div></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="name">Guangzhou Jersey Home International Trade Co., Ltd.</div>
+  <div style="margin-top:6px;">Custom Football Uniforms &nbsp;|&nbsp; Established 2024 &nbsp;|&nbsp; Guangzhou, China</div>
+  <div style="margin-top:6px;">Room 321, Building B, No. 38, Shishan Road, the Pearl River Village, Huangpu District, Guangzhou</div>
+  <div style="margin-top:10px;">Contact us on WhatsApp: <a href="https://wa.me/8613378694923">Nina</a> · <a href="https://wa.me/8618011940322">Amber</a> · <a href="https://wa.me/8618674019093">Henna</a> · <a href="https://wa.me/8618613031767">Jack</a></div>
+  <div style="margin-top:8px; opacity:0.7;">© 2026 Jersey Home. All rights reserved.</div>
+</footer>
+
+<!-- WHATSAPP BUTTONS -->
+<div class="wa-bar">
+  <a class="wa-btn wa-1" href="https://wa.me/8618011940322" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">Amber Joline<br>+86 18011940322</a>
+  <a class="wa-btn wa-2" href="https://wa.me/8613378694923" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">Nina Beryl<br>+86 13378694923</a>
+  <a class="wa-btn wa-3" href="https://wa.me/8618613031767" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">Jack Z<br>+86 18613031767</a>
+  <a class="wa-btn wa-4" href="https://wa.me/8618674019093" target="_blank" rel="noopener"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">Henna<br>+86 18674019093</a>
+</div>
+
+</body>
+</html>
